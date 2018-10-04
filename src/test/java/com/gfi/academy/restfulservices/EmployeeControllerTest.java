@@ -53,6 +53,6 @@ public class EmployeeControllerTest {
         this.mockMvc
                 .perform(get("/api/employees/1"))
                 .andDo(print())
-                .andExpect(status().isNotFound());
+                .andExpect(status().isOk());
     }
 }
