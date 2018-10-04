@@ -1,0 +1,2 @@
+INSERT INTO employees (first_name, last_name, email, age, want_communication, origin_country, join_date, expiration_date)
+VALUES ('Chen', 'Chen', 'chen.chen@gfi.be', 25, 1, 'CN', '2018-08-17 08:22:22.8220000', '2018-08-17 08:22:22.8220000')
