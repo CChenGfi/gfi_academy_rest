@@ -1,7 +1,6 @@
 package com.gfi.academy.restfulservices.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.gfi.academy.restfulservices.constraint.Country;
 import com.gfi.academy.restfulservices.model.Employee;
 import lombok.*;
 
@@ -28,10 +27,10 @@ public class EmployeeDTO {
     private int age;
 
     @NotNull
-    @Country(message = "Origin country is not valid!")
     private String originCountry;
 
     @NotNull
+    @Email
     private String email;
 
     @NotNull
